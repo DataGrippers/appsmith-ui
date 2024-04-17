@@ -2,12 +2,12 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "Api3",
+    "name": "get_kidsmeal",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
       "datasourceConfiguration": {
-        "url": "web:4000/r/restaurants"
+        "url": "web:4000/k/kidsmeals"
       },
       "invalids": [],
       "messages": [],
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Home",
+    "pageId": "Menus",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -38,7 +38,7 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -48,9 +48,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-16T20:27:16Z"
+    "createdAt": "2024-04-17T16:50:57Z"
   },
-  "id": "Home_Api3",
+  "id": "Menus_get_kidsmeal",
   "deleted": false,
-  "gitSyncId": "661edefc59202006e837a057_661edf2359202006e837a05c"
+  "gitSyncId": "661edefc59202006e837a057_661ffdf1708dd0259c13cd33"
 }

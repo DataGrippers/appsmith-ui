@@ -1,7 +1,7 @@
 {
   "pages": [
     {
-      "id": "Directions",
+      "id": "Restaurants",
       "isDefault": false
     },
     {
@@ -14,6 +14,14 @@
     },
     {
       "id": "Register",
+      "isDefault": false
+    },
+    {
+      "id": "Reviews",
+      "isDefault": false
+    },
+    {
+      "id": "Menus",
       "isDefault": false
     }
   ],
