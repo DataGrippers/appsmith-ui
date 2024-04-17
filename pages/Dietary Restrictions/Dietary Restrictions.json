@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Reviews",
-    "slug": "reviews",
+    "name": "Dietary Restrictions",
+    "slug": "dietary-restrictions",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 990,
+          "bottomRow": 670,
           "containerStyle": "none",
           "snapRows": 66,
           "parentRowSpace": 1,
@@ -25,21 +25,9 @@
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [
-          [
-            {
-              "id": "Reviews_get_rating",
-              "name": "get_rating",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            }
-          ]
-        ],
-        "layoutOnLoadActionErrors": [],
+        "layoutOnLoadActions": [],
         "validOnPageLoadActions": true,
-        "id": "Reviews",
+        "id": "Dietary Restrictions",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -50,5 +38,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "661edefc59202006e837a057_661ff339708dd0259c13cd21"
+  "gitSyncId": "661edefc59202006e837a057_66204985708dd0259c13cd69"
 }
