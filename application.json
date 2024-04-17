@@ -23,6 +23,10 @@
     {
       "id": "Menus",
       "isDefault": false
+    },
+    {
+      "id": "Dietary Restrictions",
+      "isDefault": false
     }
   ],
   "viewMode": false,
