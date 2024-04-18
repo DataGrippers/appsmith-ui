@@ -5,19 +5,15 @@
       "isDefault": false
     },
     {
-      "id": "Home",
-      "isDefault": true
-    },
-    {
       "id": "Login",
-      "isDefault": false
+      "isDefault": true
     },
     {
       "id": "Register",
       "isDefault": false
     },
     {
-      "id": "Reviews",
+      "id": "Add or Edit a Review",
       "isDefault": false
     },
     {
@@ -26,6 +22,18 @@
     },
     {
       "id": "Dietary Restrictions",
+      "isDefault": false
+    },
+    {
+      "id": "Delete a Review",
+      "isDefault": false
+    },
+    {
+      "id": "Restaurants Near Me",
+      "isDefault": false
+    },
+    {
+      "id": "User Info",
       "isDefault": false
     }
   ],

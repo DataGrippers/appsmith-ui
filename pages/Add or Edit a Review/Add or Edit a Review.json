@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Dietary Restrictions",
-    "slug": "dietary-restrictions",
+    "name": "Add or Edit a Review",
+    "slug": "add-or-edit-a-review",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1100,
+          "bottomRow": 890,
           "containerStyle": "none",
           "snapRows": 66,
           "parentRowSpace": 1,
@@ -28,16 +28,8 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Dietary Restrictions_get_dietary",
-              "name": "get_dietary",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Dietary Restrictions_get_user",
-              "name": "get_user",
+              "id": "Add or Edit a Review_get_rating",
+              "name": "get_rating",
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [],
@@ -47,7 +39,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Dietary Restrictions",
+        "id": "Add or Edit a Review",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -58,5 +50,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "661edefc59202006e837a057_66204985708dd0259c13cd69"
+  "gitSyncId": "661edefc59202006e837a057_661ff339708dd0259c13cd21"
 }
