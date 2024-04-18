@@ -2,7 +2,7 @@
     "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
     "borderColor": "#E0DEDE",
     "iconSVG": "/static/media/icon.46adf7030d667f0ad9002aa31f997573.svg",
-    "onSubmit": "{{add_restaurants.run().then(() => {\n  get_restaurants.run();\n});}}",
+    "onSubmit": "{{add_restaurants.run().then(() => {\n  get_restaurants.run();\n  showAlert('Success!', '');\n});}}",
     "topRow": 67,
     "type": "JSON_FORM_WIDGET",
     "animateLoading": true,
