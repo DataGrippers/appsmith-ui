@@ -1,7 +1,7 @@
 {
     "boxShadow": "none",
     "iconSVG": "/static/media/icon.f2c34197dbcf03595098986de898928f.svg",
-    "onSubmit": "{{get_restaurant_locations.run()}}",
+    "onSubmit": "{{get_restaurant_locations.run().then(() => {\n  showAlert('Successfully searched.', '');\n});}}",
     "topRow": 14,
     "labelWidth": 5,
     "type": "INPUT_WIDGET_V2",

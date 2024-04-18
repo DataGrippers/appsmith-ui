@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "User Info",
-    "slug": "user-info",
+    "name": "User Profile",
+    "slug": "user-profile",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 380,
+          "bottomRow": 720,
           "containerStyle": "none",
           "snapRows": 80,
           "parentRowSpace": 1,
@@ -25,10 +25,33 @@
           "dynamicBindingPathList": [],
           "leftColumn": 0
         },
-        "layoutOnLoadActions": [],
+        "layoutOnLoadActions": [
+          [
+            {
+              "id": "User Profile_get_user",
+              "name": "get_user",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [],
+              "timeoutInMillisecond": 10000
+            }
+          ],
+          [
+            {
+              "id": "User Profile_get_user_ratings",
+              "name": "get_user_ratings",
+              "confirmBeforeExecute": false,
+              "pluginType": "API",
+              "jsonPathKeys": [
+                "Table1Copy.selectedRow.userID"
+              ],
+              "timeoutInMillisecond": 10000
+            }
+          ]
+        ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "User Info",
+        "id": "User Profile",
         "deleted": false,
         "policies": [],
         "userPermissions": []
