@@ -1,5 +1,21 @@
 # appsmith-ui![](https://raw.githubusercontent.com/appsmithorg/appsmith/release/static/appsmith_logo_primary.png)
 
+
+# HungryHunt: Your Go-to Restaurant Finder
+
+Welcome to HungryHunt! A restaurant finder app designed to cater to everyone's taste buds! Our purpose is to make it easy to discover your next favorite restaurant. Powered by Python Flask and a MySQL database, our app gives you real-time restaurant data. We hope that we can satisfy your restaurant searching needs! 
+
+# Features
+
+HungryHunt offers a variety of UI screens tailored to different personas, enabling users to:
+
+- **Search for restaurants** by specific criteria such as cuisine type, delivery options, wait times, and dietary restrictions.
+- **View detailed menus**, including main courses and kids' meals, along with prices.
+- **Sort restaurants** by wait times, allergy-friendliness, and average ratings to find the perfect match for your dining preferences.
+
+
+
+
 This app is built using Appsmith. Turn any datasource into an internal app in minutes. Appsmith lets you drag-and-drop components to build dashboards, write logic with JavaScript objects and connect to any API, database or GraphQL source.
 
 ![](https://raw.githubusercontent.com/appsmithorg/appsmith/release/static/images/integrations.png)
