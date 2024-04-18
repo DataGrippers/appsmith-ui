@@ -5,12 +5,8 @@
       "isDefault": false
     },
     {
-      "id": "Home",
-      "isDefault": true
-    },
-    {
       "id": "Login",
-      "isDefault": false
+      "isDefault": true
     },
     {
       "id": "Register",

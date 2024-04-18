@@ -2,7 +2,7 @@
   "pluginType": "API",
   "pluginId": "restapi-plugin",
   "unpublishedAction": {
-    "name": "GET_USER",
+    "name": "get_user",
     "datasource": {
       "name": "DEFAULT_REST_DATASOURCE",
       "pluginId": "restapi-plugin",
@@ -16,7 +16,7 @@
       "policies": [],
       "userPermissions": []
     },
-    "pageId": "Home",
+    "pageId": "Dietary Restrictions",
     "actionConfiguration": {
       "timeoutInMillisecond": 10000,
       "paginationType": "NONE",
@@ -38,7 +38,7 @@
         "apiContentType": "none"
       }
     },
-    "executeOnLoad": false,
+    "executeOnLoad": true,
     "dynamicBindingPathList": [],
     "isValid": true,
     "invalids": [],
@@ -48,9 +48,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-04-16T20:27:16Z"
+    "createdAt": "2024-04-18T02:36:36Z"
   },
-  "id": "Home_GET_USER",
+  "id": "Dietary Restrictions_get_user",
   "deleted": false,
-  "gitSyncId": "661edefc59202006e837a057_661edf2359202006e837a05b"
+  "gitSyncId": "662037c1d22bad0093477c2c_66208733d22bad0093477c84"
 }
