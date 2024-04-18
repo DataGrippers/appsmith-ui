@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 720,
+          "bottomRow": 760,
           "containerStyle": "none",
           "snapRows": 80,
           "parentRowSpace": 1,
@@ -43,7 +43,7 @@
               "confirmBeforeExecute": false,
               "pluginType": "API",
               "jsonPathKeys": [
-                "Table1Copy.selectedRow.userID"
+                "Table2.selectedRow.userID"
               ],
               "timeoutInMillisecond": 10000
             }
