@@ -1,43 +1,15 @@
 {
   "pages": [
     {
-      "id": "Restaurants",
-      "isDefault": false
-    },
-    {
-      "id": "Home",
+      "id": "Page1",
       "isDefault": true
-    },
-    {
-      "id": "Login",
-      "isDefault": false
-    },
-    {
-      "id": "Register",
-      "isDefault": false
-    },
-    {
-      "id": "Reviews",
-      "isDefault": false
-    },
-    {
-      "id": "Menus",
-      "isDefault": false
-    },
-    {
-      "id": "Dietary Restrictions",
-      "isDefault": false
     }
   ],
   "viewMode": false,
   "appIsExample": false,
   "unreadCommentThreads": 0,
   "color": "#FBF4ED",
-  "unpublishedCustomJSLibs": [
-    {
-      "uidString": "xmlParser_https://cdnjs.cloudflare.com/ajax/libs/fast-xml-parser/3.17.5/parser.min.js"
-    }
-  ],
+  "unpublishedCustomJSLibs": [],
   "publishedCustomJSLibs": [],
   "evaluationVersion": 2,
   "applicationVersion": 2,
