@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Reviews",
-    "slug": "reviews",
+    "name": "Add or Edit a Review",
+    "slug": "add-or-edit-a-review",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 990,
+          "bottomRow": 890,
           "containerStyle": "none",
           "snapRows": 66,
           "parentRowSpace": 1,
@@ -28,7 +28,7 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Reviews_get_rating",
+              "id": "Add or Edit a Review_get_rating",
               "name": "get_rating",
               "confirmBeforeExecute": false,
               "pluginType": "API",
@@ -39,7 +39,7 @@
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Reviews",
+        "id": "Add or Edit a Review",
         "deleted": false,
         "policies": [],
         "userPermissions": []

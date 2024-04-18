@@ -1,7 +1,7 @@
 {
   "unpublishedPage": {
-    "name": "Dietary Restrictions",
-    "slug": "dietary-restrictions",
+    "name": "Restaurants Near Me",
+    "slug": "restaurants-near-me",
     "layouts": [
       {
         "viewMode": false,
@@ -13,7 +13,7 @@
           "detachFromLayout": true,
           "widgetId": "0",
           "topRow": 0,
-          "bottomRow": 1100,
+          "bottomRow": 390,
           "containerStyle": "none",
           "snapRows": 66,
           "parentRowSpace": 1,
@@ -28,26 +28,20 @@
         "layoutOnLoadActions": [
           [
             {
-              "id": "Dietary Restrictions_get_dietary",
-              "name": "get_dietary",
+              "id": "Restaurants Near Me_get_restaurant_locations",
+              "name": "get_restaurant_locations",
               "confirmBeforeExecute": false,
               "pluginType": "API",
-              "jsonPathKeys": [],
-              "timeoutInMillisecond": 10000
-            },
-            {
-              "id": "Dietary Restrictions_get_user",
-              "name": "get_user",
-              "confirmBeforeExecute": false,
-              "pluginType": "API",
-              "jsonPathKeys": [],
+              "jsonPathKeys": [
+                "Input1.text"
+              ],
               "timeoutInMillisecond": 10000
             }
           ]
         ],
         "layoutOnLoadActionErrors": [],
         "validOnPageLoadActions": true,
-        "id": "Dietary Restrictions",
+        "id": "Restaurants Near Me",
         "deleted": false,
         "policies": [],
         "userPermissions": []
@@ -58,5 +52,5 @@
     "isHidden": false
   },
   "deleted": false,
-  "gitSyncId": "661edefc59202006e837a057_66204985708dd0259c13cd69"
+  "gitSyncId": "661c92831da63d025a50385a_662097336dfa8979f83ad0e8"
 }

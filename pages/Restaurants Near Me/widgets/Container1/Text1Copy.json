@@ -1,7 +1,7 @@
 {
     "needsErrorInfo": false,
     "mobileBottomRow": 7,
-    "widgetName": "Text1",
+    "widgetName": "Text1Copy",
     "displayName": "Text",
     "iconSVG": "/static/media/icon.a47d6d5dbbb718c4dc4b2eb4f218c1b7.svg",
     "searchTags": [
@@ -32,16 +32,16 @@
     "text": "HungryHunt",
     "key": "2e8odzosl8",
     "isDeprecated": false,
-    "rightColumn": 41,
+    "rightColumn": 40,
     "textAlign": "CENTER",
     "dynamicHeight": "AUTO_HEIGHT",
-    "widgetId": "z6rflnyewp",
+    "widgetId": "qkromrc7wy",
     "minWidth": 450,
     "isVisible": true,
     "fontStyle": "BOLD",
     "textColor": "{{appsmith.theme.colors.backgroundColor}}",
     "version": 1,
-    "parentId": "yj7f94j9qw",
+    "parentId": "lgupqstk74",
     "tags": [
         "Suggested",
         "Content"
